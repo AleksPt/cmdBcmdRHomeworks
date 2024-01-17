@@ -17,3 +17,19 @@ let triangleFoundation = 10
 let triangleHeight = 12
 let triangleSquare = triangleHeight * triangleFoundation / 2
 
+// MARK: - Task 3 "Оси координат"
+let rectanglePerimeter = 20
+let rectangleHeight = 4
+let rectangleLength = rectanglePerimeter / 2 - rectangleHeight
+
+let rectangleTopLeftPoint = (x: -3, y: 2)
+let rectangleTopRightPoint = (
+    x: rectangleTopLeftPoint.x + rectangleLength,
+    y: rectangleTopLeftPoint.y
+)
+let rectangleBottomRightPoint = (
+    x: rectangleTopRightPoint.x,
+    y: rectangleTopRightPoint.y - rectangleHeight
+)
+
+
